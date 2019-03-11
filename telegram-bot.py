@@ -19,9 +19,9 @@ def handle(msg):
       args=text.split()
       print(args[0]+" "+args[1]+"\n")
       command = args[0]
-      if command == '/flash':
+      if command == '/refresh':
             host = str(args[1])
-            output=os.popen("/home/si/flash "+host).read()
+            output=os.popen("/home/si/refresh "+host).read()
             bot.sendMessage(chat_id, output)
 
 bot = telepot.Bot('688781292:AAFfaS1Q6CFz6TAtlQ1xxxxxxxxxxx')

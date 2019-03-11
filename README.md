@@ -9,10 +9,10 @@ BOT Token
 bot = telepot.Bot('688781292:AAFfaS1Q6CFz6TAtlQ1xxxxxxxxxxx')
 ```
 
-then /reflash http://xxx.xxx.xxx.xxx/
+then /refresh http://xxx.xxx.xxx.xxx/
 
 linux shell will run
 
-/home/si/reflash http://xxx.xxx.xxx.xxx/
+/home/si/refresh http://xxx.xxx.xxx.xxx/
 
-to reflash cdn web
+to refresh cdn web
